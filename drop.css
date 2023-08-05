@@ -1,0 +1,46 @@
+/* img{
+    position: sticky;
+    top: 0px;
+    left: 283px;
+} */
+/* position absloute:  parent element under access not occupie original position space
+position relative: content will be access under point but i will occupie original position space 
+position sticky:content will be access under point but  */
+body{
+    background-image: url(./images/hd2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+#cont{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+#nav{
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+
+}
+/* spacing selector */
+#nav li a{ 
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+#drop:hover #menu{
+    display: block;
+}
+#nav li a:hover{
+    color: red;
+    background-color: bisque;
+}
